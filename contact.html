@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="content creator projects videos photography directing producing editing">
+        <meta name="description" content="Hey I'm Eduardo Ceja, let's work together, contact me.">
+        
+        <title>Portfolio by Eduardo Ceja</title>
+
+        <!--Favicon-->
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <!--CSS-->
+        <link type="text/css" rel="stylesheet" href="css/styles.css">
+
+        <!--Scripts-->
+        <script src="https://kit.fontawesome.com/737bcceb6d.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="index.html">EC</a></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <div class="contact-section">
+                <div class="section-container">
+                    <h2>Contact Me</h2>
+                    <div class="contact-text">
+                        <p>I enjoy working with creative individuals. We can do so much together. I have experience in directing, producing, and editing. Interested in working together? Fill out the form below with some info about your project and I will get back to you as soon as I can.</p>
+
+                        <div class="social-handles">
+                            <a href="https://linkedin.com/in/eduardoceja98" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+                            <a href="https://www.instagram.com/eddiecja/" target="_blank"><i class="fab fa-instagram icon"></i></a>
+                            <a href="https://twitter.com/EddieCeja" target="_blank"><i class="fab fa-twitter-square icon"></i></a>
+                            <a href="https://www.youtube.com/channel/UCdh6rOhQ4u717DEGaHRY4gg" target="_blank"><i class="fab fa-youtube-square icon"></i></a>
+                        </div>
+                    </div>
+
+                    <img class="contact-pic" src="images/eduardo-ceja-profile-pic.jpg" alt="Eduardo Ceja" title="Eduardo Ceja Profile Pic" width="350">
+
+                </div>
+            </div>
+
+            <div class="form-container">
+                <h3>Contact Me</h3>
+                <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+                    <div class="first-name input-section">
+                        <label for="firstname" class="label_input_wrap"></label>
+                        <input type="text" name="req_firstname" id="firstname" placeholder="First Name"/>
+                    </div>
+        
+                    <div class="last-name input-section">
+                        <label for="lastname" class="label_input_wrap"></label>
+                        <input type="text" name="req_lastname" id="lastname" placeholder="Last Name"/>
+                    </div>
+        
+                    <div class="email input-section">
+                        <label for="email" class="label_input_wrap"></label>
+                        <input type="email" name="req_email" id="email" placeholder="example@.com"/>
+                    </div>
+        
+                    <div class="telephone input-section">
+                        <label for="telephone" class="label_input_wrap"></label>
+                        <input type="tel" name="telephone" id="telephone" placeholder="555-555-5555"/>
+                    </div>
+        
+                    <div class="message input-section">
+                        <label for="message" class="label_input_wrap"></label>
+                        <textarea name="message" id="message" placeholder="Message" cols="50" rows="10"></textarea>
+                    </div>
+        
+                    <div class="submit">
+                        <input type="submit" value="Submit!">
+        
+                    </div>
+                
+                </form>
+
+            </div>
+           
+        </main>
+</body>
