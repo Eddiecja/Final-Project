@@ -1,0 +1,714 @@
+/* =====================
+
+Universal Styling
+
+=======================*/
+@font-face {
+    font-family: 'Helveticanow';
+    src: url(../fonts/helveticanow.ttf) format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background: #1A1A1A;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+}
+
+header h1 {
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    padding: 15px 0px 15px 30px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav {
+    width: 65%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    position: relative;
+    top: 20px;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+    transition: .3s;
+}
+
+nav a:hover {
+    padding: 0px 0px 3px 0px;
+    border-bottom: inset;
+    border-width: 1px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+p {
+    font-family: 'Helveticanow';
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+a {
+    font-family: 'Helveticanow';    
+}
+
+/* =====================
+
+Home Page Styling
+
+=======================*/
+
+.intro-section {
+    background: #1A1A1A;
+    color: white;
+    padding: 65px 0;
+}
+
+.intro-section-pic, 
+.intro-section-text {
+    display: inline-block;
+}
+
+.intro-section-pic {
+    border-radius: 30px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    filter: grayscale(100%);
+}
+
+.intro-section-text {
+    width: 45%;
+    vertical-align: top;
+    top: 90px;
+    left: 70px;
+    position: relative;
+}
+
+.intro-section-text h2 {
+    font-size: 45px;
+}
+
+.intro-section-text p {
+    line-height: 24px;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.featured-work {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.featured-work h3 {
+    padding: 10px 0;
+}
+
+.intro-section-text-2 {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.intro-section-pic-2 {
+    filter: grayscale(100%);
+    transition: .3s;
+    border-radius: 25px;
+}
+
+.intro-section-pic-2:hover {
+    filter: grayscale(0%);
+    transition: .3s;
+}
+
+.bottom-section-work {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.resume {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.resume-button {
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 40px;
+    border: solid 1px black;
+    transition: .3s;
+}
+
+.resume-button:hover {
+    background:white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 40px;
+    border: solid 1px black;
+    transition: .3s;
+}
+
+
+/* =====================
+
+Portfolio Page Styling
+
+=======================*/
+
+.project-section {
+    background: #1A1A1A;
+    color: white;
+    padding: 65px 0;
+}
+
+.photography-section {
+    padding: 65px 0;
+}
+
+.video-section {
+    background: #1A1A1A;
+    color: white;
+    padding: 65px 0;
+}
+
+.section-pic, 
+.section-text {
+    display: inline-block;
+}
+
+.section-pic {
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    filter: grayscale(100%);
+}
+
+.section-text {
+    width: 45%;
+    vertical-align: top;
+    top: 100px;
+    left: 150px;
+    position: relative; 
+}
+
+.section-text h2 {
+    font-size: 30px;
+}
+
+.section-text p {
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.section-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-button {
+    font-size: 15px;
+    font-weight: bold;
+    background: white;
+    color: black;
+    border: solid 1px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    position: relative;
+    top: 15px;
+    transition: .4s;
+    text-decoration: none;
+}
+
+.section-button:hover {
+    background: #1A1A1A;
+    color: white;
+    border: solid 1px;
+    transition: .4s;
+}
+
+.section-pic-2, 
+.section-text-2 {
+    display: inline-block;
+}
+
+.section-pic-2 {
+    border-radius: 30px;
+    position: relative;
+    left: 150px;
+    filter: grayscale(100%);
+}
+
+.section-text-2 {
+    width: 45%;
+    vertical-align: top;
+    top: 100px;
+    left: 25px;
+    position: relative;
+}
+
+.section-text-2 h2 {
+    font-size: 30px;
+}
+
+.section-text-2 p {
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.section-button-2 {
+    font-size: 15px;
+    font-weight: bold;
+    background:#1A1A1A;
+    color: white;
+    border: solid 1px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    position: relative;
+    top: 15px;
+    transition: .4s;
+    text-decoration: none;
+}
+
+.section-button-2:hover {
+    background: white;
+    color: black;
+    border: solid 1px;
+    transition: .4s;
+}
+
+/* =====================
+
+About Page Styling
+
+=======================*/
+
+.about-section {
+    background: #1A1A1A;
+    color: white;
+    padding: 65px 0;
+}
+
+.about-section h2 {
+    text-align: center;
+    padding: 10px 0 25px;
+}
+
+.about-pic, 
+.about-text {
+    display: inline-block;
+}
+
+.about-pic {
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    filter: grayscale(100%);
+}
+
+.about-text {
+    width: 45%;
+    vertical-align: top;
+    top: 100px;
+    left: 150px;
+    position: relative; 
+}
+
+.about-text-2 {
+    text-align: center;
+    padding: 15px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-section-2 p {
+    position: relative;
+    padding: 10px;
+}
+
+/* =====================
+
+Contact Page Styling
+
+=======================*/
+
+.contact-section {
+    background: #1A1A1A;
+    color: white;
+    padding: 65px 0;
+}
+
+.contact-section h2 {
+    text-align: center;
+    padding: 10px 0 25px;
+}
+
+.contact-pic, 
+.contact-text {
+    display: inline-block;
+}
+
+.contact-pic {
+    border-radius: 30px;
+    position: relative;
+    left: 150px;
+    filter: grayscale(100%);
+}
+
+.contact-text {
+    width: 45%;
+    vertical-align: top;
+    top: 100px;
+    left: 25px;
+    position: relative;
+}
+
+.contact-text p {
+    text-align: center;
+    max-width: 77%;
+    margin: 0 auto;
+}
+
+.contact-text p::first-line {
+    color: yellow;
+}
+
+.contact-text p::first-letter {
+    font-size: larger;
+}
+
+.contact-text p::after {
+    content: "Talk to you soon!"; 
+}
+
+.social-handles {
+    text-align: center;
+    letter-spacing: 20px;
+    margin: 25px 0 0;
+}
+
+.icon {
+    font-size: 30px;
+    color: white;
+    transition: .3s;
+}
+
+.icon:hover {
+    font-size: 30px;
+    box-shadow: 0 0 40px white;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.form-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-container h3 {
+    padding: 20px 0 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.label_input_wrap {
+    display: block;
+}
+
+.first-name, 
+.last-name {
+    display: inline-block;
+}
+
+.input-section {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px 10px;
+    border: solid 1px;
+    font-family: 'Helveticanow';
+}
+
+textarea {
+    border: solid 1px;
+    padding: 10px;
+    font-family: 'Helveticanow';
+}
+
+.submit {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+input[type="submit"]:hover {
+    background: white;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.telephone.input-section input,
+.email.input-section input {
+    width: 393px;
+}
+
+.first-name.input-section input,
+.last-name.input-section input {
+    width: 183px;
+}
+
+/*===============================
+
+Portfolio - Projects Page Styling
+
+===============================*/
+
+.container-portfolio {
+    margin-top: 78px;
+    position: relative;
+}
+
+.center {
+    font-family: 'Helveticanow';
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-shadow: 5px 10px 10px black;
+}
+
+.return {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 18px;
+}
+
+a.return-link {
+    color: white;
+    text-decoration: none;
+}
+
+.project-hero {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    position: relative;
+    top: -11px;
+}
+
+.projects-column {
+    margin-top: 70px;
+}
+
+.lb-data .lb-caption {
+    font-size: 20px !important;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.single-column {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.single-column h3 {
+    padding: 0 0 0 33px;
+}
+
+.view-content {
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    filter: grayscale(100%);
+}
+
+/*===============================
+
+Portfolio - Photography Page Styling
+
+===============================*/
+
+.container-portfolio {
+    margin-top: 78px;
+    position: relative;
+}
+
+.center-2 {
+    font-family: 'Helveticanow';
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-shadow: 5px 10px 10px black;
+}
+
+.return {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 18px;
+}
+
+a.return-link {
+    color: white;
+    text-decoration: none;
+}
+
+.project-hero {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    position: relative;
+    top: -11px;
+}
+
+.projects-column {
+    margin-top: 70px;
+}
+
+.lb-data .lb-caption {
+    font-size: 20px !important;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.single-column-2 {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.single-column-2 h3 {
+    padding: 0 0 0 33px;
+}
+
+.view-content {
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    filter: grayscale(100%);
+}
+
+/*===============================
+
+Portfolio - Video Page Styling
+
+===============================*/
+
+.container-portfolio {
+    margin-top: 78px;
+    position: relative;
+}
+
+.center {
+    font-family: 'Helveticanow';
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-shadow: 5px 10px 10px black;
+}
+
+.return {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 18px;
+}
+
+a.return-link {
+    color: white;
+    text-decoration: none;
+}
+
+.project-hero {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    position: relative;
+    top: -11px;
+}
+
+.projects-column {
+    margin-top: 70px;
+}
+
+.lb-data .lb-caption {
+    font-size: 20px !important;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.single-column-3 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.single-column h3 {
+    padding: 0 0 0 33px;
+}
+
+.view-content {
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    filter: grayscale(100%);
+}
