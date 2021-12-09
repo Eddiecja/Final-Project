@@ -712,3 +712,78 @@ a.return-link {
     left: 20px;
     filter: grayscale(100%);
 }
+
+/* =====================
+
+Extra Page Styling
+
+=======================*/
+
+.intro-section {
+    background: #1A1A1A;
+    color: white;
+    padding: 65px 0;
+}
+
+.intro-section-pic, 
+.intro-section-text {
+    display: inline-block;
+}
+
+.intro-section-pic {
+    border-radius: 30px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    filter: grayscale(100%);
+}
+
+.intro-section-text {
+    width: 45%;
+    vertical-align: top;
+    top: 90px;
+    left: 70px;
+    position: relative;
+}
+
+.intro-section-text h2 {
+    font-size: 45px;
+}
+
+.intro-section-text p {
+    line-height: 24px;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.coding-joke {
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.star-top{
+width: 70px;
+animation: swift 4.1s linear infinite reverse;
+}
+
+.star-middle{
+    width: 90px;
+    animation: swift 3.3s linear infinite reverse;
+    }
+
+.star-bottom{
+    width: 80px;
+    animation: swift 3.5s linear infinite reverse;
+    z-index: 100;
+
+}
+
+    @keyframes swift {
+        from {
+            transform: translateX(-800px)
+        }
+        to {
+            transform: translateX(800px);
+        }
+    }
